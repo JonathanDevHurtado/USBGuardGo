@@ -1,0 +1,55 @@
+name: Sugerencia
+description: Propón una mejora para USBGuardGo
+title: "[Sugerencia] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Las ideas son bienvenidas. Describe el problema antes de la solución: entender el contexto ayuda a evaluar la propuesta.
+
+        Recuerda que el código es privado y no se aceptan pull requests con código.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qué problema resuelve
+      description: Qué intentabas hacer, qué te resultó incómodo o qué echas en falta.
+      placeholder: Cuando conecto varios dispositivos a la vez...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Cómo imaginas la mejora. Si afecta a la interfaz, descríbela.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Cómo lo resuelves ahora o qué otras opciones has pensado.
+    validations:
+      required: false
+  - type: dropdown
+    id: impact
+    attributes:
+      label: A quién beneficia
+      options:
+        - A la mayoría de usuarios
+        - A usuarios con varios dispositivos
+        - A usuarios técnicos o administradores
+        - A un caso muy concreto
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmaciones
+      options:
+        - label: He buscado sugerencias duplicadas.
+          required: true
+        - label: Entiendo que la decisión final corresponde al mantenedor.
+          required: true
+        - label: No incluyo datos personales ni material confidencial.
+          required: true

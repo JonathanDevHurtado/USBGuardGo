@@ -1,0 +1,139 @@
+USBGuardGo — Proprietary Software License
+Copyright © 2026 JonathanDevHurtado. All rights reserved.
+
+IMPORTANT: READ THIS LICENSE CAREFULLY BEFORE INSTALLING OR USING USBGUARDGO.
+BY INSTALLING, COPYING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THESE
+TERMS. IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
+
+1. DEFINITIONS
+
+"Software" means the USBGuardGo application, including its object code,
+executable files, installers, packages, documentation, artwork, and any
+updates or supplements provided by the Licensor, but excluding third-party
+components identified in Section 5.
+
+"Licensor" means JonathanDevHurtado, the copyright holder and owner of the
+Software.
+
+"Licensed Device" means a computer or virtual machine owned or controlled by
+you and used by you for your personal or internal business purposes.
+
+2. LICENSE GRANT
+
+Subject to your compliance with this License, the Licensor grants you a
+limited, non-exclusive, non-transferable, non-sublicensable, revocable
+license to:
+
+  (a) install the Software on Licensed Devices; and
+  (b) use the Software on those Licensed Devices for your personal or
+      internal business purposes.
+
+This is a license, not a sale. The Software is licensed, not sold. No rights
+are granted to you except those expressly stated in this License.
+
+3. RESTRICTIONS
+
+You must not, and must not permit any third party to:
+
+  (a) copy, distribute, publish, upload, share, sublicense, sell, rent, lease,
+      lend, or otherwise make the Software available to any third party,
+      except for a reasonable number of backup copies of the installer for
+      your own use;
+  (b) modify, adapt, translate, alter, or create derivative works of the
+      Software;
+  (c) reverse engineer, decompile, disassemble, or otherwise attempt to
+      derive the source code, algorithms, file formats, or internal
+      structure of the Software, except to the extent such restriction is
+      expressly prohibited by applicable law;
+  (d) remove, alter, obscure, or circumvent any copyright, trademark,
+      license, or other proprietary notice contained in the Software;
+  (e) use the Software to develop, train, or improve a competing product or
+      service;
+  (f) provide the Software, or access to it, to third parties as a service
+      bureau, hosted service, or managed service;
+  (g) use the Software in violation of applicable law or to interfere with
+      the security or integrity of any system you do not own or control; or
+  (h) circumvent or attempt to circumvent any technical protection or
+      licensing mechanism in the Software.
+
+4. OWNERSHIP
+
+The Software is protected by copyright and other intellectual property laws.
+The Licensor retains all right, title, and interest in and to the Software,
+including all intellectual property rights, source code, trade secrets,
+branding, and goodwill. All rights not expressly granted are reserved. No
+title to or ownership of the Software is transferred to you.
+
+"USBGuardGo" and the USBGuardGo logo are trademarks of the Licensor. This
+License does not grant any right to use the Licensor's trademarks, trade
+names, or branding, except as necessary to refer to the Software in a
+truthful, non-confusing manner.
+
+5. THIRD-PARTY COMPONENTS
+
+The Software includes or is distributed with third-party components that are
+licensed under their own terms, including the Fyne toolkit, the Go runtime,
+and the Fira Sans and Fira Mono typefaces. Those components are not owned by
+the Licensor and are not licensed to you under this License. Your use of
+those components is governed by their respective licenses, which are
+reproduced in the file THIRD_PARTY_NOTICES.md distributed with the Software.
+In the event of a conflict between this License and a third-party license,
+the third-party license governs the relevant third-party component.
+
+6. UPDATES AND SUPPORT
+
+The Licensor may, but is not obligated to, provide updates, upgrades, or
+support. Any update or upgrade provided by the Licensor is part of the
+Software and is governed by this License unless a separate license accompanies
+it. The Licensor may discontinue distribution or support at any time.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, OR
+NON-INFRINGEMENT. THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE
+ERROR-FREE, UNINTERRUPTED, COMPATIBLE WITH ANY PARTICULAR SYSTEM, OR THAT IT
+WILL DETECT, BLOCK, PREVENT, OR MITIGATE EVERY MALICIOUS OR UNAUTHORIZED USB
+DEVICE, ATTACK, OR SECURITY INCIDENT. USBGuardGo IS A DEFENSE-IN-DEPTH TOOL AND
+IS NOT A SUBSTITUTE FOR ORGANIZATIONAL SECURITY POLICIES, PHYSICAL SECURITY,
+ENDPOINT PROTECTION, OR USER AWARENESS.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR
+PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, BUSINESS,
+GOODWILL, OR COMPUTER SYSTEMS, ARISING OUT OF OR RELATING TO THE SOFTWARE OR
+THIS LICENSE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES. THE LICENSOR'S TOTAL AGGREGATE LIABILITY UNDER THIS LICENSE SHALL NOT
+EXCEED THE AMOUNT YOU PAID TO THE LICENSOR FOR THE SOFTWARE, IF ANY.
+
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN
+WARRANTIES OR LIABILITIES, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO
+YOU. IN THAT CASE, THE LIMITATIONS APPLY TO THE MAXIMUM EXTENT PERMITTED BY
+LAW.
+
+9. TERMINATION
+
+This License is effective until terminated. It terminates automatically if you
+breach any of its terms. The Licensor may also terminate this License at any
+time by notice. Upon termination, you must stop using the Software and delete
+or destroy all copies of the Software in your possession or control, including
+backup copies, except that you may retain one copy solely as required by
+applicable law or for archival purposes. Sections 3 through 10 survive
+termination.
+
+10. MISCELLANEOUS
+
+This License is the entire agreement between you and the Licensor regarding
+the Software and supersedes any prior or contemporaneous agreements on that
+subject. If any provision is held unenforceable, the remaining provisions
+remain in full force and effect. A failure to enforce a provision is not a
+waiver. You may not assign or transfer this License without the Licensor's
+prior written consent. Nothing in this License limits any mandatory rights you
+may have under applicable consumer protection law.
+
+If you have questions about this License, contact:
+JonathanDevHurtado
+JonathanHurtadoDev@proton.me

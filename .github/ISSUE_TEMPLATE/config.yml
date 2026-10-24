@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reporte privado de seguridad
+    url: https://github.com/JonathanDevHurtado/USBGuardGo/security/advisories/new
+    about: No publiques vulnerabilidades en issues. Usa el canal privado.
+  - name: Documentación
+    url: https://github.com/JonathanDevHurtado/USBGuardGo#documentación
+    about: Guías de instalación, uso, privacidad y preguntas frecuentes.
+  - name: Última versión
+    url: https://github.com/JonathanDevHurtado/USBGuardGo/releases/latest
+    about: Descarga RPM, DEB, AppImage, Flatpak o el binario portable.

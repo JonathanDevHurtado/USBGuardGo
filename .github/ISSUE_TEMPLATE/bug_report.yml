@@ -1,0 +1,108 @@
+name: Reporte de error
+description: Informa de un fallo reproducible en USBGuardGo
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tomarte el tiempo de reportar. Antes de continuar:
+
+        - Comprueba que usas la última versión pública.
+        - Busca si ya existe un issue con el mismo problema.
+        - **No incluyas números de serie reales, datos personales ni vulnerabilidades.** Para seguridad usa el canal privado indicado en SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Versión de USBGuardGo
+      description: Salida de `usbguardgo --version`.
+      placeholder: USBGuardGo 0.9.0
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Distribución y versión
+      description: Por ejemplo, Fedora 44 Workstation o Debian 12.
+      placeholder: Fedora 44 Workstation
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Paquete utilizado
+      options:
+        - RPM
+        - DEB
+        - AppImage
+        - Flatpak
+        - Binario portable
+        - Otro
+    validations:
+      required: true
+  - type: dropdown
+    id: session
+    attributes:
+      label: Sesión gráfica
+      options:
+        - X11
+        - Wayland (XWayland)
+        - No lo sé
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Motor que muestra el Panel
+      options:
+        - usbguard (kernel)
+        - Vigilancia integrada
+        - No lo sé / no aplica
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Qué ocurrió
+      description: Describe el problema de forma concreta.
+      placeholder: Al conectar un pendrive, el aviso...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Numerados, desde que abres la aplicación.
+      placeholder: |
+        1. Abrir USBGuardGo
+        2. Conectar un USB...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Registro o capturas
+      description: Pega un extracto de `~/.config/usbguardgo/usbguardgo.log` o adjunta capturas. Redacta cualquier dato personal o número de serie.
+      render: text
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmaciones
+      options:
+        - label: Uso la última versión pública.
+          required: true
+        - label: He buscado issues duplicados.
+          required: true
+        - label: El reporte no contiene datos personales ni números de serie reales.
+          required: true
+        - label: No se trata de una vulnerabilidad (esas van por el canal privado).
+          required: true

@@ -1,0 +1,19 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Registros y temporales
+*.log
+*.tmp
+*.bak
+
+# Artefactos de compilación (no se publican en este repositorio)
+dist/
+build/
